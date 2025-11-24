@@ -6,6 +6,7 @@ import DamageAssessment from './components/DamageAssessment';
 import ConfirmationScreen from './components/ConfirmationScreen';
 import ProgressIndicator from './components/ProgressIndicator';
 import FeedbackMetrics from './components/FeedbackMetrics';
+import HelpGuide from './components/HelpGuide';
 
 interface ClaimData {
   claimId: string;
@@ -187,6 +188,8 @@ function App() {
           )}
         </div>
       </main>
+
+      <HelpGuide />
     </div>
   );
 }
