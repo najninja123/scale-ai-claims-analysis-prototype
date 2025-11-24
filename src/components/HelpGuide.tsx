@@ -81,8 +81,8 @@ export default function HelpGuide() {
                 <div className="h-px bg-[#8B5CF6] mb-4"></div>
 
                 <ol className="text-[#A0AEC0] text-sm space-y-2">
-                  <li>1. Click "New Claim" from dashboard</li>
-                  <li>2. Fill out form and upload any image</li>
+                  <li>1. Fill out form with claim metadata</li>
+                  <li>2. Upload any vehicle damage image</li>
                   <li>3. Click "Submit" to see AI assessment</li>
                   <li>4. Review damage detections and estimate</li>
                   <li>5. Approve or escalate the claim</li>
